@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .bs-flag {
     padding: 10px 22px 15px 10px;
     z-index: 9999;
@@ -70,7 +73,7 @@
   }
 }
 
-/**/
+
 
 .img-logo{
   width: 120px;
@@ -109,8 +112,8 @@
 
 
 
-  /* MAIN */
-  /* SLIDER */
+/* MAIN */
+/* SLIDER */
   .slider-text-container {
     z-index: 1;
     position: absolute;
@@ -199,12 +202,12 @@
     }
   }
   
-  .carousel-img {
-    position: relative;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    }
+.carousel-img {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
 
 .carousel-img:nth-child(2){
     background-image: url("./img/banner-1.png");
@@ -233,7 +236,42 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
   /* /SLIDER */
-  /* /MAIN */
+
+
+  /* Projects*/
+
+  .width-carousel{
+    width: 85%;
+
+  }
+  .carousel-control-prev, .carousel-control-next{
+    width: 10%;
+  }
+  .text-projects{
+    font-weight: 300;
+    font-size: 2.5rem;
+  }
+
+  .text-projects span{
+    color: #20A6FF;
+    font-weight: 500;
+  }
+
+  .text-projects-paragrafo{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #626362;
+  }
+
+
+  /* @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .carousel-sm-lg{
+      flex-direction: column;
+      align-items: center;
+    }
+  } */
+  /*/ Projects*/
   
   /* GALLERY */
   #container-gallery {
@@ -282,3 +320,4 @@
     }
   }
   /* /GALLERY */
+/* /MAIN */
