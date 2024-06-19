@@ -49,6 +49,19 @@
       justify-content: center;
       align-items: center;
   }
+
+
+  .text-title-h2{
+    font-weight: 400;
+    font-size: 2.8rem;
+  }
+
+  
+  .text-paragrafo{
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #626362;
+  }
   /* /GLOBAL */
   
 /*Header*/
@@ -239,6 +252,11 @@
 
 
   /* Projects*/
+  .text-highlight{
+    color: #20A6FF;
+    font-weight: 500;
+  }
+
 
   .width-carousel{
     width: 85%;
@@ -246,21 +264,6 @@
   }
   .carousel-control-prev, .carousel-control-next{
     width: 10%;
-  }
-  .text-projects{
-    font-weight: 300;
-    font-size: 2.5rem;
-  }
-
-  .text-projects span{
-    color: #20A6FF;
-    font-weight: 500;
-  }
-
-  .text-projects-paragrafo{
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #626362;
   }
 
 
@@ -284,12 +287,17 @@
 
   @media (min-width: 751px){
     .carousel-img-projects{
-      height: 550px;
+      height: 500px;
     }
   }
   /*/ Projects*/
   
   /* GALLERY */
+  .text-different{
+    color: #626362;
+    font-weight: 500;
+  }
+
   #container-gallery {
     background-color: #13256b;
     min-height: 100%;
@@ -298,6 +306,7 @@
   .container-gallery-inner {
     max-width: 90%;
     margin: 0 auto;
+
   }
   
   /* lg+ */
