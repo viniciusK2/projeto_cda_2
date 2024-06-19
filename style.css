@@ -264,13 +264,29 @@
   }
 
 
-  /* @media (min-width: 768px) and (max-width: 991.98px) {
-
-    .carousel-sm-lg{
-      flex-direction: column;
-      align-items: center;
+  @media (min-width: 419px) and (max-width:750px){
+    .carousel-img-projects{
+      height: 400px;
+      padding: 0;
     }
-  } */
+  }
+
+  @media (max-width: 418px){
+    .carousel-img-projects{
+      height: 350px;
+      padding: 0;
+    }
+
+    .text-projects, .text-projects-paragrafo{
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 751px){
+    .carousel-img-projects{
+      height: 550px;
+    }
+  }
   /*/ Projects*/
   
   /* GALLERY */
