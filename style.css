@@ -312,7 +312,7 @@
   /* lg+ */
   @media all and (min-width: 992px) {
     .container-gallery-inner {
-      width: 80%;
+      width: 60%;
       max-width: 1280px;
     }
   }
@@ -345,4 +345,11 @@
     }
   }
   /* /GALLERY */
+
+  /* Form */
+ .campo-mensagem{
+  resize: none; /*Desabilita a possibilidade de modificar o textArea*/
+ }
+
+  /*/Form  */
 /* /MAIN */
