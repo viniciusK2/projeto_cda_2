@@ -50,18 +50,19 @@
       align-items: center;
   }
 
+  .container-fundo-destaque {
+    background-color: #13256b;
+    min-height: 100%;
+  }
+
 
   .text-title-h2{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2.8rem;
   }
 
   
-  .text-paragrafo{
-    font-size: 1.35rem;
-    font-weight: 500;
-    color: #626362;
-  }
+
   /* /GLOBAL */
   
 /*Header*/
@@ -257,6 +258,11 @@
     font-weight: 500;
   }
 
+  .text-paragrafo{
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+
 
   .width-carousel{
     width: 85%;
@@ -294,14 +300,19 @@
   
   /* GALLERY */
   .text-different{
-    color: #626362;
+    color: #20A6FF;/*626362*/
     font-weight: 500;
+    text-shadow: 2px 2px 1px rgb(253, 255, 255);
   }
 
-  #container-gallery {
-    background-color: #13256b;
-    min-height: 100%;
+  .text-gallery{
+    color: #20A6FF;/*626362*/
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgb(253, 255, 255);
+   
   }
+
+  
   
   .container-gallery-inner {
     max-width: 90%;
@@ -351,7 +362,10 @@
   resize: none; /*Desabilita a possibilidade de modificar o textArea*/
  }
 
-/* Container maps */
+
+
+  /*/Form  */
+  /* Container maps */
 .container-maps {}
 
 /*/ Container maps */
@@ -360,8 +374,17 @@
 
 
 /* /Feed instagram */
+/* /MAIN */
 
+/* Footer */
 /* Rede social */
+#footer{
+  height: 300px;
+}
+
+#logo-footer{
+  width: 150px;
+}
 .redes-sociais {
   font-size: 2.5rem;
   background-color: #374788;
@@ -387,7 +410,15 @@
   background-color: #5874af;
 }
 
+  #text-desenvolvedor a{
+    color: #20A6FF;
+    text-decoration: none;
+  }
+
+#text-copy{
+  height: 90px;
+}
+
 /*/ Rede social */
 
-  /*/Form  */
-/* /MAIN */
+/*/ Footer */
