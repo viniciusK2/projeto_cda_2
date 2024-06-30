@@ -93,6 +93,7 @@
   width: 120px;
 }
 
+
 .menu-link{
   color: #000000;
   font-weight: 500;
@@ -252,6 +253,53 @@
   /* /SLIDER */
 
 
+  /* Icone whats */
+  
+  .icone-whats{
+    position: absolute;
+    top: 90%;
+    right: 100px;
+  }
+    
+  .whats{
+    position: fixed;
+    background-color: #01e675;
+    font-size: 40px;
+    color: var(--cor-branca);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 1px 1px 10px 3px #c0bdbd;
+    transition: 800ms ease-in-out;
+    animation-name: botao-whats;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  .whats:hover{
+    background-color: var(--cor-branca);
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 2px #5fe690;
+  }
+  
+  @keyframes botao-whats {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+     
+  }
+  /*/ Icone whats */
+
   /* Projects*/
   .text-highlight{
     color: #20A6FF;
@@ -364,16 +412,6 @@
 
 
 
-  /*/Form  */
-  /* Container maps */
-.container-maps {}
-
-/*/ Container maps */
-
-/* Feed instagram */
-
-
-/* /Feed instagram */
 /* /MAIN */
 
 /* Footer */
@@ -422,3 +460,10 @@
 /*/ Rede social */
 
 /*/ Footer */
+
+
+
+.teste{
+  display: none;
+}
+
